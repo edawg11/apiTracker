@@ -1,0 +1,30 @@
+body{
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://c1.staticflickr.com/3/2882/8973462052_59f477d21f_b.jpg');
+    background-size: cover;
+    background-position: top right;
+    background-position-x: 100%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar{
+  background-color: #00005F;
+  color: #A7CCE7;
+}
+.title{
+  color: #A7CCE7;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.navbar-default .navbar-brand {
+    color: #A7CCE7;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+      color: #A7CCE7;
+
+}

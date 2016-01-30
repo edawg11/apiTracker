@@ -26,6 +26,11 @@ function searchStock() {
       console.log('successfully put:', data);
     });
 }
+router.get('/avatars', function(req, res, next) {
+  request('http://swapi.co/api/people/', function(error, response, body){
+    res.send(body);
+  });  
+}); 
 
 function formatPage() {
    $('#login').hide();

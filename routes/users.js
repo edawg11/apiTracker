@@ -60,6 +60,12 @@ router.post('/profile', function(req, res) {
   
 })
 
+router.get('/profile', function(req, res, next) {
+  request('http://swapi.co/api/people/', function(error, response, body){
+    res.send(body);
+  });  
+}); 
+
 router.get('/logout', function (req, res, next){
   res.clearCookie('mytoken').redirect('/');
 })
