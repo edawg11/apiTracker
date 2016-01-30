@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Pick A Stock To Follow
+  //- .form-group
+  //-     label(for='Stock') Stock Name
+  input#stockInput.form-control(type='text', placeholder='GOOG')
+  button#stockButton.btn.btn-default(type='submit') Search      
+block scripts
+  script(src="/js/profile.js")

@@ -27,6 +27,6 @@ function registerUser(e) {
     location.href = '/login';
   })
   .fail(function(err) {
-    alert(err);
+    alert('error.  Check Console.');
   });
 }
